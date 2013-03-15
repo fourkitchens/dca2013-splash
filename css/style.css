@@ -1,0 +1,46 @@
+/* line 7, ../scss/style.scss */
+body {
+  background: url(../img/background.png) white repeat 0 0;
+  background-size: 300px 300px;
+  color: #fff;
+}
+
+/* line 13, ../scss/style.scss */
+#main {
+  margin: 5% auto 0;
+  width: 80%;
+}
+
+/* line 18, ../scss/style.scss */
+#logo {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  max-height: 500px;
+}
+
+/* line 25, ../scss/style.scss */
+h1, h2 {
+  text-align: center;
+}
+
+/* line 29, ../scss/style.scss */
+h1 {
+  font-family: "quatro", sans-serif;
+  color: #97c441;
+  text-transform: uppercase;
+  font-size: 4em;
+}
+
+/* line 36, ../scss/style.scss */
+h2 {
+  font-family: "atrament-web";
+  font-weight: 600;
+  color: #d34913;
+  font-size: 2.5em;
+}
+
+/* line 43, ../scss/style.scss */
+p {
+  text-align: center;
+}

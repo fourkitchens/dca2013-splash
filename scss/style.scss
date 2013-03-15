@@ -1,0 +1,48 @@
+// Custom style partial
+
+$green: #97C441;
+$orange-dk: #D34913;
+
+
+body {
+	background: url(../img/background.png) white repeat 0 0;
+	background-size: 300px 300px;
+	color: #fff;
+}
+
+#main {
+	margin: 5% auto 0;
+	width: 80%;
+}
+
+#logo {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	max-height: 500px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+h1 {
+	font-family: "quatro", sans-serif;
+	color: $green;
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: "atrament-web";
+	font-weight: 600;
+	color: $orange-dk;
+	font-size: 2.5em;
+}
+
+p {
+	text-align: center;
+	.button {
+
+	}
+}
