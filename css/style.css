@@ -12,7 +12,7 @@ body {
   width: 80%;
   margin: 0 auto; }
 
-h1, h2 {
+h1, h2, h3 {
   margin-top: 0;
   text-align: center; }
 
@@ -25,6 +25,11 @@ h2 {
   font-family: "atrament-web", "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   color: #d34913; }
+
+h3 {
+  color: #FFFFFF;
+  font-family: "atrament-web", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase; }
 
 p {
   text-align: center; }
@@ -39,7 +44,7 @@ p {
     margin-top: 2%; }
 
   #logo {
-    max-height: 200px; }
+    max-width: 176px; }
 
   h1 {
     font-size: 2em;
@@ -49,7 +54,7 @@ p {
     font-size: 1.5em; } }
 @media only screen and (min-width: 768px) {
   #logo {
-    max-height: 500px; }
+    max-width: 441px; }
 
   h1 {
     font-size: 4em;

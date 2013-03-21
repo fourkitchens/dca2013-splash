@@ -4,6 +4,9 @@ $green:     #97C441;
 $green-dk:  #62802A;
 $orange-dk: #D34913;
 
+$quatro: "quatro", "Helvetica Neue", Arial, sans-serif;
+$atrament: "atrament-web", "Helvetica Neue", Arial, sans-serif;
+
 
 body {
 	background: url(../img/background.png) white repeat 0 0;
@@ -22,21 +25,27 @@ body {
 	margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
   margin-top: 0;
 	text-align: center;
 }
 
 h1 {
-	font-family: "quatro", "Helvetica Neue", Arial, sans-serif;
+	font-family: $quatro;
 	color: $green;
 	text-transform: uppercase;
 }
 
 h2 {
-	font-family: "atrament-web", "Helvetica Neue", Arial, sans-serif;
+	font-family: $atrament;
 	font-weight: 600;
 	color: $orange-dk;
+}
+
+h3 {
+  color: #FFFFFF;
+	font-family: $atrament;
+	text-transform: uppercase;
 }
 
 p {
@@ -53,7 +62,7 @@ p {
 // Smartphones
 @media only screen and (max-device-width: 480px) {
   #main { margin-top: 2%; }
-	#logo { max-height: 200px; }
+	#logo { max-width: 176px; }
 	h1 {
 		font-size: 2em;
 		margin-bottom: 0;
@@ -64,7 +73,7 @@ p {
 
 // Bigger than smartphone
 @media only screen and (min-width: 768px) {
-	#logo { max-height: 500px; }
+	#logo { max-width: 441px; }
 
 	h1 {
 		font-size: 4em;
