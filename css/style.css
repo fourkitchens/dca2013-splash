@@ -1,16 +1,19 @@
 body {
   background: url(../img/background.png) white repeat 0 0;
   background-size: 300px 300px;
-  color: #fff; }
+  color: #fff;
+  margin-top: 5%; }
 
-#main {
-  margin: 5% auto 0;
-  width: 80%; }
+#logo, #info {
+  text-align: center;
+  margin: 0 auto; }
 
 #logo {
-  display: block;
-  width: 80%;
-  margin: 0 auto; }
+  width: 50%;
+  margin-bottom: .5em; }
+
+#info {
+  width: 80%; }
 
 h1, h2, h3 {
   margin-top: 0;
@@ -19,10 +22,14 @@ h1, h2, h3 {
 h1 {
   font-family: "quatro", "Helvetica Neue", Arial, sans-serif;
   color: #97c441;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 0;
+  line-height: 1em; }
 
 h2 {
   font-family: "atrament-web", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5em;
   font-weight: 600;
   color: #d34913; }
 
@@ -39,43 +46,23 @@ p {
     p .button:hover, p .button:focus {
       background-color: #62802a; }
 
-@media only screen and (max-device-width: 480px) {
-  #main {
-    margin-top: 2%; }
-
-  #logo {
-    max-width: 176px; }
-
-  h1 {
-    font-size: 2em;
-    margin-bottom: 0; }
-
-  h2 {
-    font-size: 1.5em; } }
 @media only screen and (min-width: 768px) {
   #logo {
+    margin-bottom: 1em;
     max-width: 441px; }
 
   h1 {
-    font-size: 4em;
-    line-height: 1em;
-    margin-bottom: .2em; }
+    font-size: 4em; }
 
   h2 {
     font-size: 2.5em;
     line-height: 1em; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  #main {
-    margin-top: 2%; }
-
   #logo {
-    max-height: 300px; }
+    max-width: 200px; }
 
   h1 {
-    font-size: 2.5em;
-    line-height: 1em;
-    margin-bottom: .2em; }
+    font-size: 2.5em; }
 
   h2 {
-    font-size: 2em;
-    line-height: 1em; } }
+    font-size: 2em; } }

@@ -12,18 +12,23 @@ body {
 	background: url(../img/background.png) white repeat 0 0;
 	background-size: 300px 300px;
 	color: #fff;
+	margin-top: 5%;
 }
 
-#main {
-	margin: 5% auto 0;
-	width: 80%;
+#logo, #info {
+  text-align: center;
+  margin: 0 auto;
 }
 
 #logo {
-	display: block;
-	width: 80%;
-	margin: 0 auto;
+  width: 50%;
+  margin-bottom: .5em;
 }
+
+#info {
+  width: 80%;
+}
+
 
 h1, h2, h3 {
   margin-top: 0;
@@ -34,10 +39,14 @@ h1 {
 	font-family: $quatro;
 	color: $green;
 	text-transform: uppercase;
+	font-size: 2em;
+	margin-bottom: 0;
+	line-height: 1em;
 }
 
 h2 {
 	font-family: $atrament;
+	font-size: 1.5em;
 	font-weight: 600;
 	color: $orange-dk;
 }
@@ -59,26 +68,15 @@ p {
 	}
 }
 
-// Smartphones
-@media only screen and (max-device-width: 480px) {
-  #main { margin-top: 2%; }
-	#logo { max-width: 176px; }
-	h1 {
-		font-size: 2em;
-		margin-bottom: 0;
-	}
-	h2 { font-size: 1.5em; }
-}
-
-
 // Bigger than smartphone
 @media only screen and (min-width: 768px) {
-	#logo { max-width: 441px; }
+  #logo {
+    margin-bottom: 1em;
+    max-width: 441px;
+  }
 
 	h1 {
 		font-size: 4em;
-		line-height: 1em;
-		margin-bottom: .2em;
 	}
 	h2 {
 		font-size: 2.5em;
@@ -88,16 +86,11 @@ p {
 
 // Tablet in landscape
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape) {
-  #main { margin-top: 2%; }
-  #logo { max-height: 300px; }
-	h1 {
-		font-size: 2.5em;
-		line-height: 1em;
-		margin-bottom: .2em;
-	}
-	h2 {
-		font-size: 2em;
-		line-height: 1em;
-	}
+  #logo {	max-width: 200px; }
+
+  h1 { font-size: 2.5em; }
+
+  h2 { font-size: 2em; }
+ 
 }
 
