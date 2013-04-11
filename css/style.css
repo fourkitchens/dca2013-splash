@@ -40,11 +40,18 @@ h3 {
 
 p {
   text-align: center; }
-  p .button {
-    background-color: #97c441;
-    border-color: #62802a; }
-    p .button:hover, p .button:focus {
-      background-color: #62802a; }
+
+.button {
+  background-color: #176dad;
+  border-color: #135c91; }
+  .button:hover, .button:focus {
+    background-color: #135c91; }
+
+.button.green {
+  background-color: #97c441;
+  border-color: #62802a; }
+  .button.green:hover, .button.green:focus {
+    background-color: #62802a; }
 
 @media only screen and (min-width: 768px) {
   body {

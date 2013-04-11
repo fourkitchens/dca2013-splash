@@ -1,5 +1,7 @@
 // Custom style partial
 
+$blue:      #176DAD;
+$blue-dk:   #135C91;
 $green:     #97C441;
 $green-dk:  #62802A;
 $orange-dk: #D34913;
@@ -59,14 +61,24 @@ h3 {
 
 p {
 	text-align: center;
-	.button {
-  	background-color: $green;
-  	border-color: $green-dk;
-  	&:hover, &:focus {
-    	background-color: $green-dk;    	
-  	}
+}
+
+.button {
+	background-color: $blue;
+	border-color: $blue-dk;
+	&:hover, &:focus {
+  	background-color: $blue-dk;    	
 	}
 }
+
+.button.green {
+	background-color: $green;
+	border-color: $green-dk;
+	&:hover, &:focus {
+  	background-color: $green-dk;    	
+	}
+}
+
 
 // Bigger than smartphone
 @media only screen and (min-width: 768px) {
